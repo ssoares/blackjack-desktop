@@ -1,14 +1,14 @@
 {
-    "main": "../html/index.html",
+    "main": "./html/index.html",
     "name": "BlackjackDesktop",
     "description": "Blackjack game for desktop based on node-webkit",
     "version": "0.1.0",
-    "keywords": [ "demo", "node-webkit" ],
+    "keywords": [ "demo", "node-webkit", "leap motion" ],
     "window": {
       "title": "Blackjack",
-      "icon": "link.png",
-      "toolbar": false,
-      "frame": false,
+      "icon": "icon.png",
+      "toolbar": true,
+      "frame": true,
       "width": 800,
       "height": 500,
       "position": "mouse",
@@ -18,6 +18,6 @@
       "max_height": 600
     },
     "webkit": {
-      "plugin": false
+      "plugin": true
     }
 }
